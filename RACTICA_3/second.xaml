@@ -1,0 +1,14 @@
+﻿<Window x:Class="RACTICA_3.second"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RACTICA_3"
+        mc:Ignorable="d"
+       Title="second" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="datagrid2" HorizontalAlignment="Center" CanUserAddRows="False" Height="176" Margin="0,41,0,0" VerticalAlignment="Top" Width="728" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button Name="btn2" Content="Первая таблица" HorizontalAlignment="Left" Margin="612,326,0,0" VerticalAlignment="Top" Height="65" Width="152" Click="btn2_Click"/>
+        <Button x:Name="btn4" Content="Удалить книгу" HorizontalAlignment="Left" Height="65" Margin="41,326,0,0" VerticalAlignment="Top" Width="359" Click="btn4_Click"/>
+    </Grid>
+</Window>
